@@ -1,0 +1,103 @@
+body {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #777777;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #4aaaa5;
+}
+
+.headBar {
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 60px;
+}
+
+.inner {
+    display: inline-block;
+    width: 960px;
+    height: 60px;
+}
+
+.name {
+    float: left;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 60px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    float: left;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+    display: block;
+    /* padding: 8px; */
+    margin: 0 20px 0 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+#rightLink {
+    margin-right: 0;
+}
+
+li+li {
+    border-left: 2px solid #a4a4a4;
+}
+
+nav {
+    float: right;
+    margin-top: 3px;
+}
+
+.main {
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/wavegrid/wavegrid_@2X.png");
+    /* Please HELP! 
+    Something is very weird here. I have to add a clear border to the main div, otherwise there will be a gap between the main div and the head div. */
+    border: 1px solid transparent;
+}
+
+.content {
+    background-color: white;
+    width: 920px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+img{
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+
+/* p{
+    display: inline-block;
+} */
